@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>AnasayfaServlet</servlet-name>
+    <servlet-class>tr.edu.duzce.mf.bm.bm470.io.y2023-2024.bahar.no181002044.AnasayfaServlet</servlet-class>
+  </servlet>
+  <!--servlet bilesenleri, servlet-mapping tanimlari baslamadan önce yapilmalidir. -->
+  <servlet-mapping>
+    <servlet-name>AnasayfaServlet</servlet-name>
+    <url-pattern>/anasayfa</url-pattern>
+  </servlet-mapping>
 </web-app>
