@@ -9,8 +9,19 @@
     <servlet-name>AnasayfaServlet</servlet-name>
     <servlet-class>AnasayfaServlet</servlet-class>
   </servlet>
+
+  <servlet>
+    <servlet-name>KaydetServlet</servlet-name>
+    <servlet-class>KaydetServlet</servlet-class>
+  </servlet>
+
   <servlet-mapping>
     <servlet-name>AnasayfaServlet</servlet-name>
     <url-pattern>/anasayfa</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>KaydetServlet</servlet-name>
+    <url-pattern>/kaydet</url-pattern>
   </servlet-mapping>
 </web-app>
