@@ -14,7 +14,3 @@ Bu proje, servlet kullanarak geliştirilmiş bir back-end uygulamasıdır. Ders 
     git clone https://github.com/B1ack-D3ath/servlet-webapp-example.git
     ```
 2. Apache Tomcat veya benzeri bir servlet konteynerinde çalıştırın.
-
-## Lisans
-
-Bu proje, eğitim amaçlı geliştirilmiştir.
